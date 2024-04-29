@@ -21,7 +21,6 @@ const useStyles = createStyles((theme) => ({
     color: theme.colors.dark[0],
     stroke: '#2f3137',
     '&:hover': {
-      stroke: '#bfbfbf',
       fill: theme.fn.primaryColor(),
       '> g > text, > g > svg > path': {
         fill: '#fff',
